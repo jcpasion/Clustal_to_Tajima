@@ -2,17 +2,12 @@ library(ape)
 library(pegas)
 library(seqinr)
 
-#Xe_and_Xp
-#setwd("/Users/julius/Desktop/test_gene_split/Genes")
+#-----------------------------------------------------
+### Directories
+#-----------------------------------------------------
 
-#Xe only
-setwd("/Users/julius/Desktop/Xe_Only_Comparator/Genes")
-
-#Xp LH3 only
-setwd("/Users/julius/Desktop/Xp_LH3_Comparator/Genes")
-
-#XP 91-118 only
-setwd("/Users/julius/Desktop/Xp_91-118_Comparator/Genes")
+#Set your working directory where your Clustal alignment files are located
+setwd()
 
 #-----------------------------------------------------
 ### Testing A Single Gene
