@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+#Program used to split a Clustal file containing multiple loci alignments into separate files. Use header_cut.sh afterwards to delete headers from each file and obtain correct CLUSTAL format.
+
 #set up argparse
 import sys
 import argparse
